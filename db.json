@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone",
+      "price": 999,
+      "year": 2024,
+      "image": "https://fmobile.kz/_next/image?url=https%3A%2F%2Fapi.fmobile.kz%2Fimage%2F%2Fmedia%2Fsale%2Fimage%2Fsmartfon_apple_iphone_15_128gb_black_mtp03_274372_1%202023-09-25_15-01-56.911396%2035fe9e96f5da2d2e0785f0a4.jpg&w=640&q=100",
+      "configure": {
+        "chip": "15",
+        "SSD": "256 GB",
+        "memory": "8 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "iPhone Pro",
+      "price": 1399,
+      "year": 2024,
+      "image": "https://fmobile.kz/_next/image?url=https%3A%2F%2Fapi.fmobile.kz%2Fimage%2F%2Fmedia%2Fsale%2Fimage%2Fsmartfon_apple_iphone_15_128gb_black_mtp03_274372_1%202023-09-25_15-01-56.911396%2035fe9e96f5da2d2e0785f0a4.jpg&w=640&q=100",
+      "configure": {
+        "chip": "15",
+        "SSD": "256 GB",
+        "memory": "8 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "iPhone Pro Max",
+      "price": 1699,
+      "year": 2024,
+      "image": "https://fmobile.kz/_next/image?url=https%3A%2F%2Fapi.fmobile.kz%2Fimage%2F%2Fmedia%2Fsale%2Fimage%2Fsmartfon_apple_iphone_15_128gb_black_mtp03_274372_1%202023-09-25_15-01-56.911396%2035fe9e96f5da2d2e0785f0a4.jpg&w=640&q=100",
+      "configure": {
+        "chip": "15",
+        "SSD": "256 GB",
+        "memory": "8 GB",
+        "display": "Retina"
+      }
+    }
+  ]
+}

@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  margin-bottom: 60px;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mat-card {
+  background-color: white;
+  color: black;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.image {
+  max-width: 300px;
+}
+
+.button {
+  margin-right: 5px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

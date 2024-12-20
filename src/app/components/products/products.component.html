@@ -1,0 +1,33 @@
+<div class="container">
+  <mat-toolbar *ngIf="canEdit">
+    <mat-toolbar-row>
+      <span class="example-spacer"></span>
+      <button (click)="openDialog()" class="button" mat-flat-button>
+        <mat-icon>shopping_basket</mat-icon>
+        Добавить товар
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+
+  <mat-card *ngFor="let product of products" class="example-card mat-card">
+    <mat-card-title>{{ product.title }}</mat-card-title>
+    <img alt="iphone" class="image"
+         mat-card-image
+         src="{{product.image}}">
+    <mat-card-content>
+      <p>Price: {{ product.price | currency }}</p>
+      <p>Year: {{ product.year }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button" mat-flat-button>В корзину</button>
+      <button [routerLink]="['/product', product.id]" class="button" mat-flat-button>Подробнее</button>
+    </mat-card-actions>
+    <button [matMenuTriggerFor]="menu" class="button" mat-button>Ред.</button>
+    <mat-menu #menu="matMenu">
+      <button (click)="deleteItem(product.id)" mat-menu-item>Удалить</button>
+      <button (click)="openDialog(product)" mat-menu-item>Ред.</button>
+    </mat-menu>
+  </mat-card>
+
+</div>
